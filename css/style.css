@@ -1,0 +1,12 @@
+		body{
+			background-image: url('../images/desktop.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		@media screen and (max-width: 780px) and (orientation: portrait){
+			body{
+				background-image: url('../images/mobile.png');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+		}
